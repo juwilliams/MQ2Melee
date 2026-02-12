@@ -66,7 +66,7 @@
 #define   SHOW_SWITCHING       1
 
 #define   NOID                -1
-#define   delay              250
+constexpr int delay = 250;
 
 enum { Tiny, Small, Medium, Large, Giant, Huge }; // container sizes
 
